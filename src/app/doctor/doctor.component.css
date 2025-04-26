@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Form Title and Table Title */
+  .form-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+  
+  /* Form Container */
+  .container {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Fields */
+  .form-control {
+    border: 2px solid #dee2e6;
+    border-radius: 12px;
+    padding: 12px 18px;
+    transition: all 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 10px #cfcaff;
+  }
+  
+  /* Labels */
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+  }
+  
+  /* Submit Button */
+  .btn-primary {
+    background: linear-gradient(90deg, #6c63ff 0%, #42a5f5 100%);
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(90deg, #42a5f5 0%, #6c63ff 100%);
+  }
+  
+  /* Table Container */
+  .table {
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .table thead {
+    background: #6c63ff;
+    color: #ffffff;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  /* Table Rows Hover */
+  .table-hover tbody tr:hover {
+    background: #f0f0ff;
+  }
+  
+  /* Image inside Table */
+  .table img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6c63ff;
+  }
+  
+  /* Edit and Delete Buttons */
+  .btn-outline-info, .btn-outline-danger {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .btn-outline-info:hover {
+    background-color: #17c3de;
+    color: #fff;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* No books message */
+  .alert-warning {
+    background: #7592c3;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 15px;
+  }
+  
+  /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .col-md-5, .col-md-7 {
+      width: 100%;
+    }
+  }
+  

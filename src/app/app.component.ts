@@ -10,3 +10,21 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'HMS_Project';
 }
+export class Writer {
+  id: number;
+  writerName: string;
+  bookName: string;
+  quantity: number;
+  price: number;
+  imageUrl: string;
+
+constructor(id: number, writerName: string,  bookName: string, quantity: number, price: number, imageUrl: string
+) {
+  this.id = id;
+  this.writerName = writerName;
+  this.bookName = bookName;
+  this.quantity = quantity;
+  this.price = price;
+  this.imageUrl = imageUrl;
+}
+}
